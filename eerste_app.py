@@ -10,3 +10,4 @@ st.write("Welkom bij mijn app!")
 # Slider
 x = st.slider("Kies een getal", 0, 100)
 st.write(f"Het kwadraat van {x} is {x**2}")
+st.write(f"De vierkantswortel van {x} is {round(x**0.5, 2)}")
